@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management - Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Event Management Logo" class="logo">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Events Section -->
+    <section class="events">
+        <div class="container">
+            <h2>Our Events</h2>
+
+            <!-- Filtering Options -->
+            <div class="filter-options">
+                <label for="filter-category">Filter by Category:</label>
+                <select id="filter-category">
+                    <option value="all">All</option>
+                    <option value="conference">Conference</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="product-launch">Product Launch</option>
+                </select>
+
+                <label for="filter-date">Filter by Date:</label>
+                <input type="date" id="filter-date">
+                <button id="filter-button">Filter</button>
+            </div>
+
+            <!-- Event List -->
+            <div class="events-grid" id="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card" data-category="conference" data-date="2024-06-15">
+                    <img src="images/event1.jpg" alt="Annual Conference">
+                    <h3>Annual Conference</h3>
+                    <p class="event-date">June 15, 2024</p>
+                    <p>A gathering of industry leaders and professionals.</p>
+                    <a href="event-details.html" class="details-button">Learn More</a>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="event-card" data-category="wedding" data-date="2024-07-22">
+                    <img src="images/event2.jpg" alt="Wedding Celebration">
+                    <h3>Wedding Celebration</h3>
+                    <p class="event-date">July 22, 2024</p>
+                    <p>Creating magical moments for your special day.</p>
+                    <a href="event-details.html" class="details-button">Learn More</a>
+                </div>
+
+                <!-- Add more event cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@eventmanagement.com">info@eventmanagement.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Address: 123 Event Street, City, Country</p>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Event Management. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

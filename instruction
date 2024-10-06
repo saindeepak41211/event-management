@@ -1,0 +1,30 @@
+\*
+event-management-website/
+│
+├── index.html
+├── about.html
+├── services.html
+├── events.html
+├── contact.html
+├── blog.html
+├── styles.css
+├── scripts.js
+├── images/
+│   ├── logo.png
+│   ├── hero-home.jpg
+│   ├── featured1.jpg
+│   ├── featured2.jpg
+│   ├── featured3.jpg
+│   ├── team.jpg
+│   ├── founder.jpg
+│   ├── service1.jpg
+│   ├── service2.jpg
+│   ├── service3.jpg
+│   ├── event1.jpg
+│   ├── event2.jpg
+│   ├── contact.jpg
+│   ├── blog1.jpg
+│   └── testimonial1.jpg
+└── assets/
+    └── (Any additional assets like fonts)
+*\
